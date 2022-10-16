@@ -1,0 +1,318 @@
+body{
+  margin: 0;
+  font-family: Bahnschrift Light;
+  width: 1530px;
+}
+
+/*Top Container*/
+.top-container h1{
+  margin-top: 0;
+}
+
+.intro{
+  position: relative;
+  top: 200px;
+  font-size: 2em;
+  color: #815B5B;
+}
+
+.top-container{
+  position: relative;
+  background-color: #FFECEF;
+  border: none;
+  margin: 0;
+  padding: 16px;
+  height: 700px;
+  width: auto;
+  text-align: center;
+}
+
+.middle-container{
+  background-color: #FFCACA;
+  height: 700px;
+  width: auto;
+  margin: 0;
+  border: none;
+  padding: 16px;
+  position: relative;
+}
+
+.bottom-container{
+  height: 1000px;
+  width: auto;
+  margin: 0;
+  border: none;
+  padding: 16px;
+  position: relative;
+  background-image: linear-gradient(#FFCACA, #FFECEF);
+}
+
+/*Top Container Images*/
+#cloud1{
+  position: absolute;
+  right: 300px;
+  top: 100px;
+  max-width: 350px;
+  height: auto;
+}
+
+#cloud{
+  position: absolute;
+  left: 400px;
+  top: 50px;
+  max-width: 300px;
+  height: auto;
+}
+
+#mountainLeft{
+  display: block;
+  position: relative;
+  right: 280px;
+  top: 220px;
+  max-width: 700px;
+  height: auto;
+}
+
+#mountainRight{
+  display: block;
+  position: relative;
+  max-width: 700px;
+  height: auto;
+  left: 850px;
+  bottom: 50px;
+  margin-left: 0;
+}
+
+#cloud2{
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  max-width: 300px;
+  height: auto;
+}
+
+/*Middle Container*/
+.myImg{
+  max-width: 150px;
+  height: auto;
+  border-radius: 50px;
+  border: solid 7px #815B5B;
+  position: relative;
+  top: 100px;
+}
+
+.aboutMe{
+  text-align: center;
+  width: 500px;
+  position: relative;
+  top: 150px;
+  color: #594545;
+}
+
+span{
+  font-weight: bold;
+}
+
+hr{
+  border-style: dotted none none;
+  width: 50px;
+  border-width: 7px;
+  border-color: #9E7676;
+  position: absolute;
+  left: 740px;
+  top: 650px;
+}
+
+/*Middle Container Images*/
+#cloud3{
+  position: absolute;
+  right: 333px;
+  top: 70px;
+  max-width: 300px;
+  height: auto;
+}
+
+#cloud4{
+  position: absolute;
+  top: 220px;
+  left: 300px;
+  max-width: 300px;
+  height: auto;
+}
+
+#cloud5{
+  position: absolute;
+  top: 400px;
+  right: 220px;
+  max-width: 250px;
+  height: auto;
+}
+
+#cloud6{
+  position: absolute;
+  top: 600px;
+  left: 250px;
+  max-width: 300px;
+  height: auto;
+}
+
+/*Bottom Container*/
+.skills{
+  text-align: center;
+  color: #9E7676;
+  padding: 30px;
+}
+
+#webDev{
+  text-align: center;
+  width: 500px;
+  color: #594545;
+}
+
+#webDevText{
+  text-align: right;
+  width: 500px;
+  position: relative;
+  left: 200px;
+  bottom: 20px;
+  color: #594545;
+}
+
+#seo{
+  text-align: center;
+  width: 500px;
+  position: relative;
+  bottom: 30px;
+  color: #594545;
+}
+
+#seoText{
+  text-align: left;
+  width: 500px;
+  position: relative;
+  right: 150px;
+  bottom: 30px;
+  color: #594545;
+}
+
+#social{
+  text-align: center;
+  width: 500px;
+  color: #594545;
+}
+
+#socialText{
+  text-align: right;
+  width: 500px;
+  position: relative;
+  left: 200px;
+  color: #594545;
+}
+
+/*Bottom Container Images*/
+#webDevIcon{
+  max-width: 200px;
+  height: auto;
+  padding: 16px;
+  position: absolute;
+  left: 400px;
+  top: 200px;
+}
+
+#seoIcon{
+  max-width: 200px;
+  height: auto;
+  padding: 16px;
+  position: absolute;
+  left: 900px;
+  top: 450px;
+}
+
+#socialIcon{
+  max-width: 200px;
+  height: auto;
+  padding: 16px;
+  position: absolute;
+  left: 400px;
+  top: 750px;
+}
+
+/*Get In Touch*/
+.getInTouch{
+  height: auto;
+  width: auto;
+  margin: 0;
+  border: none;
+  padding: 16px;
+  position: relative;
+  background-color: #FFECEF;
+}
+
+#contactH{
+  text-align: center;
+}
+
+#contactH2{
+  text-align: center;
+}
+
+#contactText{
+  width: 500px;
+  text-align: center;
+}
+
+#mailToButton{
+  display: block;
+  height: 30px;
+  width: 100px;
+  background-color: white;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50px;
+  position: relative;
+  top: 20px;
+  padding: 5px;
+}
+
+.contactBorder{
+  height: 250px;
+  width: 600px;
+  background-color: #9E7676;
+  padding: 16px;
+  border-radius: 100px;
+  margin: 30px;
+}
+/*Footer*/
+.footer{
+  height: auto;
+  background-color: #9E7676;
+}
+
+#instagram{
+  display: inline-block;
+  font-size: 0.8em;
+  width: 20px;
+  height: auto;
+}
+
+#linkedIn{
+  display: inline-block;
+  font-size: 0.8em;
+  width: 20px;
+  height: auto;
+}
+
+#email{
+  display: inline-block;
+  font-size: 0.8em;
+  width: 20px;
+  height: auto;
+}
+
+#copywright{
+  font-size: 0.7em;
+  font-family: serif;
+  color: white;
+  text-align: center;
+}
